@@ -15,20 +15,24 @@ There are assets for this project that has been used here :- [click here for Ass
 ```
 ## Configuration of Tailwind CSS
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+
+```
+  module.exports = {
   content:` ["./src/**/*.{html,js}"]`,
   theme: {
     extend: {},
   },
   plugins: [],
 }
+```
 
 ## Add the Tailwind directives to your CSS
 
+```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
 
 ### Project Description 
 
